@@ -1,0 +1,29 @@
+.task {
+    border: 1px solid rgb(106, 105, 105);
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+  }
+
+.taskDone {
+  border: 1px solid rgb(106, 105, 105);
+  height: 50px;
+  margin: 10px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+
+  text-decoration: line-through;
+}
+
+button {
+    margin: 0px 5px 0px 5px;
+}
